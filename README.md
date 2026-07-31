@@ -17,12 +17,19 @@ _elaina md adalah whatsapp bot yang di bangun dengan beilys memiliki tampilan mi
 <img src="https://raw.githubusercontent.com/WhiskeySockets/Baileys/refs/heads/master/Media/logo.png" height="29"/>
 </p>
 ---
+
 ### Fitur 
+- [X] Button Message
+- [X] Game Menu
+- [X] Downloder
+- [X] Sosial Menu
+- [X] Toram Menu
+- [X] Maker
 
 
-
-> [!info] 
+> [!NOTE] 
 > peringatan dilarang keras menggunakan script ini untuk menjual belikan entah berbentuk jasa maupun file.
+
 ---
 
 
