@@ -6,6 +6,17 @@
   "author": "dimasyoga42",
   "license": "GLP",
   "dependencies": {
-    "dotenv": "^17.4.2"
+    "@ryuu-reinzz/baileys": "^5.1.4",
+    "@ryuu-reinzz/haruka-lib": "^4.0.3",
+    "@ryuu-reinzz/luna-lib": "^4.1.4",
+    "@supabase/supabase-js": "^2.111.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "axios": "^1.19.0",
+    "chalk": "^6.0.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "moment-timezone": "^0.6.3",
+    "wa-sticker-formatter": "^4.4.4"
   }
 }
