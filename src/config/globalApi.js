@@ -12,31 +12,9 @@ import axios from "axios";
 const API_REGISTRY = {
   waifu: {
     url: "https://api.waifu.pics/sfw",
-    apikeyIn: "none", // API ini publik, tidak butuh key
+    apikeyIn: "none",
   },
 
-  // contoh apikey lewat query param custom (?token=xxx)
-  contoh_query: {
-    url: "https://api.contoh.com/data",
-    apikeyIn: "query",
-    apikeyName: "token",
-  },
-
-  // contoh apikey lewat header (Authorization: Bearer xxx)
-  contoh_header: {
-    url: "https://api.contoh.com/secure",
-    apikeyIn: "header",
-    apikeyName: "Authorization",
-  },
-
-  // contoh apikey jadi bagian path (https://api.contoh.com/v1/KEYNYA/lookup)
-  contoh_path: {
-    url: "https://api.contoh.com/v1/{key}/lookup",
-    apikeyIn: "path",
-  },
-
-  // shortcut: string biasa = default ke query param "apikey"
-  contoh_simple: "https://api.contoh.com/simple",
 };
 
 function normalizeConfig(entry) {
