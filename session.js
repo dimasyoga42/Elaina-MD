@@ -19,7 +19,6 @@ import { fileURLToPath } from "url";
 import haruka, { Button, ButtonV2 } from "@ryuu-reinzz/luna-lib";
 import { runCommand, runEvent } from "./handler.js";
 import { plugins } from "./plugins/index.js";
-import "./src/config/global.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
