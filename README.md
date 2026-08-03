@@ -3,10 +3,12 @@
 
 _elaina md adalah whatsapp bot yang di bangun dengan beilys memiliki tampilan minimalis dan moderen. dan memiliki fitur yang cukup menarik, selain itu pengguna hanya cukup menyiapkan nomer kosong untuk wadah elaina md berjalan._
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/dimasyoga42/Elaina-MD/)
+<a  href="#"><img  title="Elaina MD"  src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge" height="19"></a>
 
-<p  align="center">
-<a  href="#"><img  title="Elaina MD"  src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
+[![GitHub license](https://img.shields.io/github/license/dimasyoga42/Elaina-MD.svg)](https://github.com/dimasyoga42/Elaina-MD/blob/main/LICENSE)
+
+[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 
 ---
 ### Lenguage & fremwork
