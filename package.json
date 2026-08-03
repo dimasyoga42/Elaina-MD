@@ -9,6 +9,7 @@
     "dev": "pm2 start main.js",
     "server": "pm2 start server.js"
   },
+  "type": "module",
   "dependencies": {
     "@ryuu-reinzz/baileys": "^5.1.4",
     "@ryuu-reinzz/haruka-lib": "^4.0.3",
