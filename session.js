@@ -19,7 +19,6 @@ import { fileURLToPath } from "url";
 import haruka, { Button, ButtonV2 } from "@ryuu-reinzz/luna-lib";
 import { runCommand, runEvent } from "./handler.js";
 import { plugins } from "./plugins/index.js";
-import { cronMt } from "./plugins/_function/_mt.js";
 import "./src/config/global.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -162,7 +161,6 @@ export const createSession = async (
           m.sender = m.key.participant || m.key.remoteJid;
 
           await runCommand(sock, m, plugins);
-          cronMt(sock);
         } catch (err) {
           console.error(`[${sessionId}] Error memproses pesan:`, err);
         }
